@@ -14,4 +14,5 @@
 Route::prefix('website')->group(function() {
     Route::get('/coming-soon-page', 'WebsiteController@comingSoonPage')->name('comingSoonPage');
     Route::post('/store-client-for-updates', 'WebsiteController@storeNewClientForUpdates')->name('storeNewClientForUpdates');
+    Route::get('/view-template', 'WebsiteController@viewTemplate')->name('viewTemplate');
 });

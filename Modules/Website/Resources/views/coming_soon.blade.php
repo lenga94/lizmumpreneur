@@ -7,7 +7,7 @@
     <!--===============================================================================================-->
     <link rel="icon" type="image/png" href="{{ asset('website/images/icons/logo.jpeg') }}"/>
     <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css"href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="{{ asset('website/custom/fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
     <!--===============================================================================================-->
@@ -49,34 +49,56 @@
         @include('inc.messages')
     </div>
 
-    <div class="flex-col-c w-full p-t-50 p-b-80">
-        <h3 class="l1-txt1 txt-center p-b-10">
-            Coming Soon
-        </h3>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="flex-col-c w-full p-t-50 p-b-80">
+                <h3 class="l1-txt1 txt-center p-b-10">
+                    Coming Soon
+                </h3>
 
-        <p class="txt-center l1-txt2 p-b-43 wsize2">
-            Our website is under construction, follow us for updates now!
-        </p>
+                <p class="txt-center l1-txt2 p-b-43 wsize2">
+                    A one stop house for social and impact driven projects. We support Zambia’s vulnerable communities who are in need of social and economic solutions.
+                </p>
 
-        {!! Form::open(['route' => ['storeNewClientForUpdates'], 'method' => 'POST', 'class' => 'flex-w flex-c-m w-full contact100-form validate-form', 'id' => 'receiveUpdatesForm']) !!}
+                <p class="txt-center l1-txt2 p-b-43 wsize2">
+                    Our website is under construction, follow us for updates now!
+                </p>
 
-        <div class="wrap-input100 validate-input where1" data-validate = "Name is required">
-            {{ Form::text('name', '', ['class' => 's1-txt3 placeholder0 input100', 'id' => 'name', 'placeholder' => 'Name']) }}
+                {!! Form::open(['route' => ['storeNewClientForUpdates'], 'method' => 'POST', 'class' => 'flex-w flex-c-m w-full contact100-form validate-form', 'id' => 'receiveUpdatesForm']) !!}
+
+                <div class="wrap-input100 validate-input where1" data-validate = "Name is required">
+                    {{ Form::text('name', '', ['class' => 's1-txt3 placeholder0 input100', 'id' => 'name', 'placeholder' => 'Name']) }}
+                </div>
+
+                <div class="wrap-input100 validate-input where1" data-validate = "Email is required: ex@abc.xyz">
+                    {{ Form::email('email', '', ['class' => 's1-txt3 placeholder0 input100', 'id' => 'email', 'placeholder' => 'Email']) }}
+                </div>
+
+                <button type="submit" class="flex-c-m s1-txt4 size3 how-btn trans-04 where1" >   Get Updates</button>
+
+                {!! Form::close() !!}
+
+                <ul class="modal-footer" style="border-top: none">
+                    <li><span class="s1-txt2 txt-center">Stay in touch : </span> </li>
+                    <li><a href="https://www.facebook.com/lizmumpreneurzambia/"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/lizmumpreneurlimited/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="http://linkedin.com/in/elizabeth-ngosa-193365183"><i class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+            </div>
+
+
         </div>
-
-        <div class="wrap-input100 validate-input where1" data-validate = "Email is required: ex@abc.xyz">
-            {{ Form::email('email', '', ['class' => 's1-txt3 placeholder0 input100', 'id' => 'email', 'placeholder' => 'Email']) }}
+        <div class="col-sm-6">
+            <div class="wrap-pic-max wrap-pic-cir">
+                    <img src="{{ asset('website/images/icons/logo.jpeg') }}" width="100%">
+            </div>
         </div>
-
-        <button type="submit" class="flex-c-m s1-txt4 size3 how-btn trans-04 where1" >   Get Updates</button>
-
-        {!! Form::close() !!}
-
     </div>
+
 
     <span class="s1-txt2 txt-center">
 			@ 2020 Elmarc
-		</span>
+    </span>
 
 </div>
 
