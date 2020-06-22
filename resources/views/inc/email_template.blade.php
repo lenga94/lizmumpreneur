@@ -1,109 +1,55 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Demystifying Email Design</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<!DOCTYPE html>
+<html lang="{{ app()->getLocale() }}">
+
+<head>{{--<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>{{ config('app.name', 'Youth Lead') }}</title>
+
+    <!-- Favicons -->
+    <link href="{{ asset('images/favicon.ico') }}" rel="icon">
+    <link href="{{ asset('images/logo2') }}" rel="apple-touch-icon">
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ asset('assests/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <!--external css-->
+    <link href="{{ asset('assests/font-awesome/css/font-awesome.css') }}" rel="stylesheet" />
+@yield('stylesheets')
+
+<!-- Custom styles for this template -->
+    <link href="{{ asset('custom/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('custom/css/style-responsive.css') }}" rel="stylesheet">
+@yield('head_scripts')
+
+<!-- =======================================================
+          Page Name: base.blade.php
+          Author: Main Method
+          Date: 19-05-2019
+        ======================================================= -->--}}
+
 </head>
-<body style="margin: 0; padding: 0;">
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-    <tr>
-        <td style="padding: 10px 0 30px 0;">
-            <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border: 1px solid #cccccc; border-collapse: collapse;">
-                <tr>
-                    <td align="center" bgcolor="#0e0e1a" style="color: #153643; font-size: 28px; font-weight: bold; font-family: Arial, sans-serif;">
-                        <img src="https://www.lizmumpreneur.com/website/images/icons/logo.jpeg" alt="" width="150" height="150" style="display: block;" />
-                    </td>
-                </tr>
-                <tr>
-                    <td bgcolor="#ffffff" style="padding: 40px 30px 40px 30px;">
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                            <tr>
-                                <td style="color: #153643; font-family: Arial, sans-serif; font-size: 24px;">
-                                    <b>Hello {{ $recipientName }}</b>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="padding: 20px 0 110px 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
-                                    {{ $body }}
-                                </td>
-                            </tr>
-                            <!--<tr>
-                                <td>
-                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                                        <tr>
-                                            <td width="260" valign="top">
-                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                                                    <tr>
-                                                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/left.gif" alt="" width="100%" height="140" style="display: block;" />
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td style="padding: 25px 0 0 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                            <td style="font-size: 0; line-height: 0;" width="20">
-                                                &nbsp;
-                                            </td>
-                                            <td width="260" valign="top">
-                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                                                    <tr>
-                                                        <td>
-                                                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/right.gif" alt="" width="100%" height="140" style="display: block;" />
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td style="padding: 25px 0 0 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
-                                                            Lorem ipsu dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>-->
-                        </table>
-                    </td>
-                </tr>
-                {{--<tr>
-                    <td bgcolor="#ffffff" style="padding: 0px 0px 0px 0px;">
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                            <tr>
-                                <td style="color: #ffffff; font-family: Arial, sans-serif; font-size: 14px;" width="100%">
-                                    <img src="http://www.picz.co.zm:7127/WebAppApiGateway/public/images/covid_signature.png" alt="" width="100%" height="180" style="display: block;" />
 
-                                </td>
-                                <!--<td align="right" width="25%">
-                                    <table border="0" cellpadding="0" cellspacing="0">
-                                        <tr>
-                                            <td style="font-family: Arial, sans-serif; font-size: 12px; font-weight: bold;">
-                                                <a href="http://www.twitter.com/" style="color: #ffffff;">
-                                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/tw.gif" alt="Twitter" width="38" height="38" style="display: block;" border="0" />
-                                                </a>
-                                            </td>
-                                            <td style="font-size: 0; line-height: 0;" width="20">&nbsp;</td>
-                                            <td style="font-family: Arial, sans-serif; font-size: 12px; font-weight: bold;">
-                                                <a href="http://www.twitter.com/" style="color: #ffffff;">
-                                                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/fb.gif" alt="Facebook" width="38" height="38" style="display: block;" border="0" />
-                                                </a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>-->
-                            </tr>
-                        </table>
-                    </td>
-                </tr>--}}
-            </table>
-        </td>
-    </tr>
-</table>
+<body>
+<section id="container">
+    <strong>{{ $name }}</strong>,
+    <p>{{ $body }}</p>
+</section>
+
+{{--<!-- js placed at the end of the document so the pages load faster -->
+<script src="{{ asset('assests/jquery/jquery.min.js') }}"></script>
+<script src="{{ asset('assests/bootstrap/js/bootstrap.min.js') }}"></script>
+<script class="include" type="text/javascript" src="{{ asset('assests/jquery.dcjqaccordion.2.7.js') }}"></script>
+<script src="{{ asset('assests/jquery.scrollTo.min.js') }}"></script>
+<script src="{{ asset('assests/jquery.nicescroll.js') }}" type="text/javascript"></script>
+<script src="{{ asset('assests/jquery.sparkline.js') }}"></script>
+
+<!--common script for all pages-->
+<script src="{{ asset('assests/common-scripts.js') }}"></script>--}}
 </body>
+
 </html>
-
-
-

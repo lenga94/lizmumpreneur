@@ -1,13 +1,15 @@
-@extends('layouts.app')
+@extends('layouts.app_material')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Reset Password') }}</div>
-
-                <div class="card-body">
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row justify-content-center" style="margin-top: 50px;">
+            <div class="col-md-8">
+                <div class="card" style="background-color:rgba(244,244,244,0.6);border-radius: 15px;">
+                    <div class="header" style="color:#052f66;"><b><h4>Youth Lead Zambia</h4></b></div>
+                    <div class="card-body" style="background-color:rgba(244,244,244,0.6);border-radius: 15px;">
+                        <div class="col-md-7">
                     <form method="POST" action="{{ route('password.update') }}">
                         @csrf
 
@@ -57,9 +59,13 @@
                             </div>
                         </div>
                     </form>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="{{ asset('images/usaid_fhi_logo.png') }}" width="260" height="90" alt="USAID FHI Log" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 @endsection

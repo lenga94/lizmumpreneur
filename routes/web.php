@@ -12,9 +12,8 @@
 */
 
 Route::get('/', function () {
-    return redirect()->route('comingSoonPage');
+    return redirect()->route('websiteHomePage');
 });
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
