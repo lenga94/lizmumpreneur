@@ -47,16 +47,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6">
-                        {{--<div class="widget">
+                        <div class="widget">
                             <h4 class="text-capitalize mb-4">Quick Links</h4>
                             <ul class="list-unstyled footer-menu lh-35">
                                 <li><a href="{{ route('aboutPage') }}">About</a></li>
                                 <!--<li><a href="#">Members</a></li>-->
-                                <li><a href="{{ route('contactPage') }}">Contact</a></li>
+                                {{--<li><a href="{{ route('contactPage') }}">Contact</a></li>
                                 <li><a href="{{ route('internApplicationPage') }}">Apply</a></li>
-                                <li><a href="{{ route('termsAndConditionsPage') }}">Conditions & Requirements</a> </li>
+                                <li><a href="{{ route('termsAndConditionsPage') }}">Conditions & Requirements</a> </li>--}}
                             </ul>
-                        </div>--}}
+                        </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-sm-6">
@@ -81,9 +81,9 @@
                     <div class="col-lg-3 ml-auto col-sm-6">
                         <div class="widget">
                             <div class="logo mb-4">
-                                <h3>Liz<span> mumpreneur.</span></h3>
+                                <h3>Liz-mumpreneur.</h3>
                             </div>
-                            <h6><a href="#" >elizabethngosa5@gmail.com</a></h6>
+                            <h6><a href="#" >info@liz-mumpreneur.com</a></h6>
                         </div>
                     </div>
                 </div>
@@ -98,8 +98,10 @@
                         <div class="col-lg-6 text-left text-lg-right">
                             <ul class="list-inline footer-socials">
                                 <li class="list-inline-item"><a href="https://www.facebook.com/lizmumpreneurzambia/"><i class="ti-facebook mr-2"></i>Facebook</a></li>
-                                <li class="list-inline-item"><a href="https://www.instagram.com/lizmumpreneurlimited/"><i class="ti-instagram mr-2"></i>Instagram</a></li>
+                                <li class="list-inline-item"><a href="https://www.instagram.com/lizmumpreneurzambia/"><i class="ti-instagram mr-2"></i>Instagram</a></li>
+{{--
                                 <li class="list-inline-item"><a href="http://linkedin.com/in/elizabeth-ngosa-193365183"><i class="ti-linkedin mr-2 "></i>Linkedin</a></li>
+--}}
                             </ul>
                         </div>
                     </div>

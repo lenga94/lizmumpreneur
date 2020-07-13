@@ -30,13 +30,13 @@
             </button>
 
             <div class="collapse navbar-collapse text-center" id="navbarsExample09">
-                {{--<ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="{{ route('websiteHomePage') }}">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('aboutPage') }}">About</a></li>
                    <!-- <li class="nav-item"><a class="nav-link" href="#">Members</a></li>-->
-                    <li class="nav-item dropdown">
+                  {{--  <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apply</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown05">
                            <li> <a class="dropdown-item" href="{{ route('internApplicationPage') }}">For internship</a></li>
@@ -47,14 +47,14 @@
                     <li class="nav-item"><a class="nav-link" href="{{ route('youthLeadersPage') }}">Success stories</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('alumniPage') }}">Youthlead Alumni</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('contactPage') }}">Contact</a></li>
-
+--}}
                 </ul>
 
-                <div class="nav-item dropdown" style="margin-left: 10px">
+                {{--<div class="nav-item dropdown" style="margin-left: 10px">
                     @guest
                         <a href="{{ route('login') }}" class="btn btn-solid-border btn-round-full">Login</a>
                     @else
-                        <a id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" --}}{{--href="{{ route('dashboardPage') }}"--}}{{-- class="btn btn-solid-border btn-round-full dropdown-toggle">
+                        <a id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="{{ route('dashboardPage') }}" class="btn btn-solid-border btn-round-full dropdown-toggle">
                             <i class="fa fa-caret-down mr-2"></i>
                             <span>
                                 <i class="fa fa-user mr-2" style="margin-left: 5px"></i>

@@ -27,7 +27,7 @@
                 <div class="section-title">
                     <span class="h6 text-color ">About The Program</span><br>
                     <div>
-                        <h7> Youth Lead is a three-year program launched in October of 2018. It is funded by the United States Agency for International Development (USAID) and implemented by FHI 360 in partnership with the National Youth Development Council and Avencion. The goal of Youth Lead is to support, network, and elevate outstanding young leaders ages 18 – 35 from across Zambia to amplify the impact of their work, inspire civic innovation and promote a culture of sustained leadership.</h7>
+                        <h7> Liz-mumpreneur coaches women who feel forgotten and lost while raising a family, who have been out of the job market for years or who want to establish a new identity by starting their own business. LMP does not only address business skills but also help their clients in five important areas of life and help them create empowering visions using the vision boards tool. By them being part of this network they acquire meaningful friendships and knowledge on different work and business cultures while also sharing their experience and knowledge</h7>
                     </div>
                     <div class="line"></div>
                 </div>
@@ -37,22 +37,22 @@
             <div class="col-lg-4 col-md-6 col-12">
                 <div class="intro-item mb-5 mb-lg-0">
                     <i class="ti-layout-media-overlay-alt-2 color-one"></i>
-                    <h4 class="mt-4 mb-3">Youth Lead program</h4>
-                    <p>Youth Lead will fund a six-month internship for approximately 350 to 400 youth over the life of the program. Applicants selected for internships must successfully complete a 4-day, pre-internship training. Upon completion, participants will be placed with a host organization – civil society organization, government entity, or private business – and will be eligible for a monthly stipend of $135.00 USD for a period of up to six months. The monthly stipend is intended to defray costs associated with transportation to and from the workplace and participation in required leadership training and activities. Interns are required to work four days per week and must attend a leadership, skills and civic training activity one day per week.</p>
+                    <h4 class="mt-4 mb-3">Our Mission</h4>
+                    <p>To help and connect women by providing a platform where they can collaborate, innovate, inspire and get the motivation they need to achieve their business and personal goals.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="intro-item mb-5 mb-lg-0">
                     <i class="ti-panel color-one"></i>
-                    <h4 class="mt-4 mb-3">Internship Host Organisations</h4>
-                    <p>Youth Lead will identify a wide range of potential hosts organizations and help hosts develop realistic and meaningful scopes of work and will regularly engage host organizations. While the project cannot guarantee host organizations will contribute to the cost of supporting interns or that they will offer employment upon completion, they will be encouraged to contribute funds in addition to monthly stipends and to identify opportunities for long-term engagement or employment</p>
+                    <h4 class="mt-4 mb-3">Our Goal</h4>
+                    <p>To create a virtual network of female entrepreneurs with the purpose of creating profesionalism in this type of work, increasing job opportunities and develop the capacity for self-organization and action amongst the target group.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="intro-item">
                     <i class="ti-layout-grid2 color-one"></i>
-                    <h4 class="mt-4 mb-3">Internship grants</h4>
-                    <p>In addition to carrying out the specific responsibilities of the internship, interns will also be asked to develop a capstone project to enable them to explore a specific issue of concern and create a useable product out of that learning. Capstone projects will have access to in-kind support, ranging from USD $500 to $2,500.</p></div>
+                    <h4 class="mt-4 mb-3">Our Vision</h4>
+                    <p>To reduce the rate of unemployment through the incorporation of women into social and economic activity.</p></div>
             </div>
         </div>
     </div>
