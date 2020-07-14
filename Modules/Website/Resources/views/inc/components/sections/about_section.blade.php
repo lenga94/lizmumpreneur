@@ -5,7 +5,7 @@
                 <div class="block text-center">
                     <h1 class="text-capitalize mb-4 text-lg">Know More about Us</h1>
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
+                        <li class="list-inline-item"><a href="{{ route('websiteHomePage') }}" class="text-white">Home</a></li>
                         <li class="list-inline-item"><span class="text-white">/</span></li>
                         <li class="list-inline-item"><a href="#" class="text-white-50">About</a></li>
                     </ul>
